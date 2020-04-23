@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix Multiplication</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "matrix.js"></script>
+</head>
+<body>
+<div class = "main">
+    <h3>Matrix 1</h3>
+    <input type="number" id="a11">a<sub>1, 1</sub></input>
+    <input type="number" id="a12">a<sub>1, 2</sub></input>
+    <br>
+    <input type="number" id="a21">a<sub>2, 1</sub></input>
+    <input type="number" id="a22">a<sub>2, 2</sub></input>
+    <br>
+    <h3>Matrix 2</h3>
+    <input type="number" id="b11">b<sub>1, 1</sub></input>
+    <input type="number" id="b12">b<sub>1, 2</sub></input>
+    <br>
+    <input type="number" id="b21">b<sub>2, 1</sub></input>
+    <input type="number" id="b22">b<sub>2, 2</sub></input>
+    <br>
+    <sup>* empty fields will be counted as 0</sup>
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <br><br>
+    <label id = "result">0  0<br>0  0</label>
+</div>
+</body>
+</html>

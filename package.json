@@ -1,0 +1,17 @@
+{
+  "name": "matrixMultiplicator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.658.0",
+    "body-parser": "latest",
+    "ejs": "latest",
+    "express": "latest"
+  },
+  "author": "Georgiy Nefedov",
+  "license": "ISC"
+}
